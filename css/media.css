@@ -1,0 +1,66 @@
+@media only screen and (min-width: 320px) {
+  .box p {
+    font-size: 14px;
+    width: 55%; } }
+@media only screen and (min-width: 380px) {
+  .box p {
+    font-size: 16px;
+    width: 60%; } }
+@media only screen and (min-width: 480px) {
+  .box p {
+    width: 70%; } }
+@media only screen and (min-width: 750px) {
+  .toggle_mnu {
+    display: none; }
+
+  .small_logo {
+    display: none; }
+
+  .logo .big_logo {
+    display: block; }
+
+  .logo {
+    width: 200px;
+    float: left; }
+
+  .main_menu {
+    display: table;
+    table-layout: fixed;
+    position: static;
+    background-color: #fff;
+    -webkit-transition: none;
+            transition: none;
+    float: left; }
+    .main_menu ul {
+      padding: 0;
+      margin: 0;
+      margin-left: 20px; }
+      .main_menu ul li {
+        display: table-row;
+        text-align: center;
+        float: left; }
+        .main_menu ul li a {
+          display: table-cell;
+          color: #000;
+          text-decoration: none;
+          line-height: 79px;
+          padding: 0 8px; }
+          .main_menu ul li a:hover {
+            background-color: #01a4ef;
+            color: #fff; }
+
+  .block {
+    float: left; }
+
+  .block1 {
+    width: 250px; }
+
+  .block2 {
+    margin-left: 10px;
+    margin-right: 10px; }
+
+  .block3 {
+    width: 200px; } }
+@media only screen and (min-width: 800px) {
+  .main_menu ul {
+    margin-left: 40px; } }
